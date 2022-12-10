@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #2f5b79;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, rgb(168, 117, 7));
+    background: linear-gradient(to right, #d5d5d5, rgb(168, 117, 7));
+}
+
+#headcard {
+    width: 73%;
+    height: 55vh;
+    margin: 20px auto;
+    border-radius: 1rem;
+    background-image: url(./images/banner.jpg);
+    background-position: center;
+    box-shadow: 0 0 10px black;
+    padding-top: 3rem;
+}
+
+#headcard div {
+    width: 72%;
+    margin: auto;
+    background: rgba(10, 9, 9, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(37, 42, 124, 0.37);
+    backdrop-filter: blur( 8.5px);
+    -webkit-backdrop-filter: blur( 8.5px);
+    border-radius: 10px;
+    border: 1.2px solid rgba(81, 68, 68, 0.18);
+    padding: .6rem;
+    border-radius: 1rem;
+}
+
+#headcard div p {
+    text-align: center;
+    color: white;
+    font-size: 3.7rem;
+}
+
+.responsive {
+    max-width: 78%;
+    height: auto;
+}
+
+img {
+    padding: 16px;
+}
+
+.displayBox {
+    width: 101%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroll-box {
+    overflow-y: auto;
+    height: 505px;
+    float: left;
+    padding: 1.2rem;
+}
+
+.mb-4 {
+    margin-top: 27px;
+}
